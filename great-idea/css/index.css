@@ -63,4 +63,221 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+html{
+	margin: auto;
+}
+
+.secondpage{
+	margin: auto;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+}
+
+div nav {
+	font-size: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+nav a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+nav a:hover{
+	color: grey;
+
+}
+.services-header-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%
+}
+
+.servicespage2{
+	margin-left: 5%;
+}
+
+.bigwords2{
+	font-size: 100%
+}
+
+.servicestitle2{
+	font-size: 200%;
+}
+
+.inandpic{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-evenly;
+}
+
+.inandbut{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 500%;
+	margin-top: 5%;
+
+}
+
+.middle-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+main div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+
+.features{
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+.about{
+	display: flex;
+	flex-direction: column;
+	width: 45%
+}
+
+.services{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.product{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.vision{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.middle-img{
+	width: 95%;
+}
+
+hr{
+	margin: 2.5%;
+}
+.space{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start
+}
+
+footnote{
+	display: flex;
+	justify-content: center;
+	height:20%;
+}
+
+.services-header-img{
+	width:95%;
+}
+
+
+.design2{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 45%;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.uxui2{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 45%;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.marketing2{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 45%;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.webdev2{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 45%;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.iosdev2{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 45%;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.anddev2{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	width: 45%;
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+.button{
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.bottom2{
+	display:flex;
+	flex-direction: row;
+	justify-content: baseline;
+	align-items: flex-start;
+}
+
+.somefacts2{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
+	width: 45%;
+	margin: 10px;
+	padding: 10px;
+}
+
+.services-info-img{
+	width: 45%;
+}
+
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+}
